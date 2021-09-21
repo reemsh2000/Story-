@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import '../css/style.css';
 function Welcome() {
   return (
-  <div className='conatiner'>
+  <div className='welcome-conatiner'>
       <div className='main'>
          <div className='left'>
          <h1> FOREST STORIES </h1>
