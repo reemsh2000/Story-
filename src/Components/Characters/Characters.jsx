@@ -1,12 +1,28 @@
-import React from "react";
+import React ,{useEffect, useState} from 'react'
+import fetchData from '../../utils/fetch'
 import Nav from "../Nav";
+import Card from "../Card";
 import '../../css/character.css';
 function Characters() {
+  const [data, setdata] = useState([])
+  useEffect(() => {
+      fetchData()
+      .then(res=>setdata(res))
+      return () => {
+
+      }
+  }, [])
   return (
     <div>
       <Nav/>
       <div>
         <h2>Hello Char</h2>
+        {
+          data? data.map((ele)=>{
+          return  <Card data={ele}  key={ele.id}/>
+          }) :''
+        }
+      
       </div>
     </div>
   );
