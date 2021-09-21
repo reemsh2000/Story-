@@ -1,6 +1,6 @@
 import "./App.css";
 import Home from "./Components/Home/Home";
-import Characters from "./Components/Characters";
+import Characters from "./Components/Characters/Characters";
 import Story from "./Components/Story";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 function App() {
