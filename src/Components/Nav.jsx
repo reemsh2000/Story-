@@ -1,10 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import '../css/nav.css';
 function Nav() {
   return (
 
-      <div>
-        <ul>
+      <div className='nav-conatiner'>
+        <ul className='nav'>
           <li>
             <Link to="/home">Home</Link>
           </li>
