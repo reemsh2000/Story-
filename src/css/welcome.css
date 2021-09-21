@@ -5,7 +5,7 @@
 }
 .welcome-conatiner {
   width: 70%;
-  padding: 10px;
+  /* padding: 10px; */
   margin: auto;
 }
 .main {
@@ -61,8 +61,8 @@ footer p {
   margin: 10px;
 }
 .part {
-  width: 130px;
-  height: 130px;
+  width: 90px;
+  height: 90px;
 }
 
 @media (max-width: 768px) {
