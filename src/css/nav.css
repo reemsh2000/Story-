@@ -1,10 +1,44 @@
-.nav-conatiner{
-
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+.nav-conatiner * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.nav{
-    width:40%;
-    list-style: none;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+
+.nav-conatiner {
+  background-color: #3a4865;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-conatiner .title {
+  font-family: "Courgette", cursive;
+  padding-left: 30px;
+  color: #fff;
+}
+.nav {
+  width: 50%;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 18px;
+}
+.nav a {
+  color: #fff;
+  font-size: 19px;
+}
+.nav a:hover {
+  border-bottom: 2px solid #fff;
+}
+@media (max-width: 768px) {
+  .nav {
+    width: 80%;
+  }
+  .nav a {
+    font-size: 13px;
+  }
+  .nav-conatiner .title {
+    padding-left: 20px;
+  }
 }
