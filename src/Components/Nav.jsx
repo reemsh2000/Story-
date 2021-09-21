@@ -8,7 +8,7 @@ function Nav() {
         <h2 className='title'> Story Maker </h2>
         <ul className='nav'>
           <li>
-            <Link to="/home">Home</Link>
+            <Link to="/">Home</Link>
           </li>
           <li>
             <Link to="/characters">Characters</Link>
