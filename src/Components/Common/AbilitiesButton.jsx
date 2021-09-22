@@ -2,17 +2,16 @@ import React from "react";
 
 function AbilitiesButton(props) {
   const { abilities ,id } = props;
-  let btnId;
+  let btnId = `btn${id}`;
   const handleSuperClick = (clickedId) => {
     document.querySelector(`#btn${clickedId}`).style.display='inline';
-    console.log(`#btn${clickedId}`)
   };
   const handleClose=(clickedId)=>{
     document.querySelector(`#btn${clickedId}`).style.display='none';
   }
+  
   return (
     <div className="abilites-parent">
-    {btnId = `btn${id}`}
       <ol className="powerful" id ={btnId}>
         <span className="close"onClick={()=>handleClose(id)}> X</span>
         {abilities.length > 0
