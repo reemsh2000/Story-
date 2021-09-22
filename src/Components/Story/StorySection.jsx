@@ -1,5 +1,6 @@
 import React from "react";
 import TextArea from "./TextArea";
+import Audio from "./Audio";
 function StorySection() {
   let name ;
   const userObj = JSON.parse(localStorage.getItem("Name"));
@@ -10,7 +11,8 @@ function StorySection() {
 
   return (
     <div className="story-section">
-      <h1> Hello {name} </h1>
+      <h1 className='welcome'> Hello {name} </h1>
+      <Audio/>
       <div className='text-story'>
        <TextArea/>
       </div>
