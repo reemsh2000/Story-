@@ -2,10 +2,9 @@ import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
 import Nav from "../Nav";
 import Footer from "./Footer";
-import "../../css/welcome.css";
+import "../../css/home.css";
 import NameInput from './NameInput'
 function Home() {
-
   return (
     <Fragment>
       <Nav />
@@ -14,6 +13,7 @@ function Home() {
           <div className="left">
             <h1> FOREST STORIES </h1>
             <p> When grace is lost from life,come with a burst of song.</p>
+            <p> You can select your characters then start write your stories</p>
              <NameInput/>
             <Link to="/characters">Lets Start</Link>
           </div>
