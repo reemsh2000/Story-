@@ -13,7 +13,7 @@ function Characters() {
       });
     }
     return () => (mount = false);
-  }, []);
+  }, [data]);
   return (
     <div>
       <Nav />
