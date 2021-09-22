@@ -5,7 +5,6 @@ import RemoveBtn from "./RemoveBtn";
 function Card(props) {
   const { data, storyPage } = props;
   const { img_url, name, gender, id, abilities } = data;
-  // console.log(abilities)
   return (
     <div className="card">
       <img src={img_url} alt="character" />

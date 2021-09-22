@@ -5,14 +5,15 @@ import Card from "../Common/Card";
 import "../../css/character.css";
 function Characters() {
   const [data, setdata] = useState([]);
-  const [isData, setIsData] = useState(false);
   useEffect(() => {
-    setIsData(true);
-    fetchData().then((res) => setdata(res));
-    return () => {
-      setIsData(false);
-    };
-  }, [isData, data]);
+    let mount = true;
+    if (mount) {
+      fetchData().then((res) => {
+        setdata(res);
+      });
+    }
+    return () => (mount = false);
+  }, []);
   return (
     <div>
       <Nav />
