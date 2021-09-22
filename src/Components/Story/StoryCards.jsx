@@ -4,8 +4,6 @@ import Card from "../Common/Card";
 function StoryCards(props) {
   const { data } = props;
   let characters = JSON.parse(localStorage.getItem("data"));
-  console.log(characters)
-  console.log(data)
   return (
     <div className="left-section">
       <h3 className="heros-title">Heroes of your story</h3>
