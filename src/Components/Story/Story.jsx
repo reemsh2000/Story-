@@ -14,7 +14,7 @@ function Story() {
       });
     }
     return () => (mount = false);
-  }, []);
+  }, [data]);
   return (
     <div>
       <Nav />
