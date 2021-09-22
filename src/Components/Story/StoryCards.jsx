@@ -19,7 +19,7 @@ function StoryCards(props) {
                 );
               });
             })
-          ) : ''
+          ) :  (<DefaultCharacter/>)
         ) : (
            <DefaultCharacter/>
         )}

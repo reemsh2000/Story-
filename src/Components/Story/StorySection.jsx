@@ -11,7 +11,6 @@ function StorySection() {
   return (
     <div className="story-section">
       <h1> Hello {name} </h1>
-      <p> You can write your story here</p>
       <div className='text-story'>
        <TextArea/>
       </div>

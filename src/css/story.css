@@ -26,16 +26,17 @@ width: 55%;
 }
 textarea {
   width: 90%;
-  margin: 20px;
-  background-image: url("https://i.pinimg.com/564x/57/8a/ab/578aabb1012ac3cb71354146bb1b8f7f.jpg");
+  /* margin: 20px; */
+  background-image: url("https://i.pinimg.com/564x/0c/61/4f/0c614f95c1fbac6bfbd7872365637cce.jpg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position:top;
   background-size: cover;
   min-height: 90vh;
-  padding: 15px;
+  padding: 55px;
   outline: none;
   border-radius: 10px;
   font-size: 18px;
+  box-sizing: border-box;
 }
 .ann-div {
   margin-top: 20px;
