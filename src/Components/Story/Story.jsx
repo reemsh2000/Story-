@@ -14,7 +14,7 @@ function Story() {
     return () => {
       setIsData(false);
     };
-  }, [isData]);
+  }, [isData,data]);
   return (
     <div>
       <Nav />
