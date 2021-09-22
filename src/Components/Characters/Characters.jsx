@@ -15,8 +15,8 @@ function Characters() {
   return (
     <div>
       <Nav/>
-      <div>
-        <h2>Hello Char</h2>
+      <div className='cards'>
+
         {
           data? data.map((ele)=>{
           return  <Card data={ele}  key={ele.id}/>
