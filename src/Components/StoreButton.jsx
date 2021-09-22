@@ -1,6 +1,6 @@
 import React from "react";
 
-function Button(props) {
+function StoreButton(props) {
   const { btnId } = props;
   let dataArray = [];
   //  Check Element if exsit , if not :add it to local storage
@@ -19,7 +19,7 @@ function Button(props) {
       localStorage.setItem("data", JSON.stringify(dataArray));
     }
   };
-  return <button onClick={() => addToSorage(btnId)}>Add to My story </button>;
+  return <button onClick={() => addToSorage(btnId)} className='add-to-store'>Add To My Story </button>;
 }
 
-export default Button;
+export default StoreButton;

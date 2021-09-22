@@ -1,15 +1,18 @@
 import React from 'react'
-import Button from './Button'
+import StoreButton from './StoreButton'
+import AbilitiesButton from './AbilitiesButton'
 function Card(props) {
 const {data}=props
 const {img_url,name,gender,id,abilities}=data
-// console.log(data)
+// console.log(abilities)
     return (
         <div className='card'>
           <img src={img_url} alt='character'/>
-          <h5>Name : {name} </h5>
+          <h5 className='char-name'>Name : {name} </h5>
           <span> Gender : {gender}</span>
-          <Button btnId={id}/>
+          <AbilitiesButton abilities={abilities} id={id}/>
+       
+          <StoreButton btnId={id}/>
         </div>
     )
 }

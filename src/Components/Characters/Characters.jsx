@@ -20,7 +20,7 @@ function Characters() {
         {
           data? data.map((ele)=>{
           return  <Card data={ele}  key={ele.id}/>
-          }) :''
+          }) :<div className='loading'> </div>
         }
       
       </div>
