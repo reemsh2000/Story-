@@ -1,7 +1,7 @@
 import React ,{useEffect, useState} from 'react'
 import fetchData from '../../utils/fetch'
 import Nav from "../Nav";
-import Card from "../Card";
+import Card from "../Common/Card";
 import '../../css/character.css';
 function Characters() {
   const [data, setdata] = useState([])

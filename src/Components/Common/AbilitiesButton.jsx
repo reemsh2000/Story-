@@ -19,7 +19,7 @@ function AbilitiesButton(props) {
           ? abilities.map((ele) => {
               return <li key={ele}> {ele} </li>;
             })
-          : "There  are no abilities for this character, you can add one 😉"}
+          : <p className='no-abilities'> There  are no abilities for this character, you can add one 😉</p>}
       </ol>
       <button className="abilities" onClick={()=>handleSuperClick(id)}>
         Super Powers
