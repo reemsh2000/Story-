@@ -5,15 +5,14 @@ import Card from "../Common/Card";
 import '../../css/character.css';
 function Characters() {
   const [data, setdata] = useState([])
-  const [isData, setIsData] = useState(false)
   useEffect(() => {
-    setIsData(true)
+   
       fetchData()
       .then(res=>setdata(res))
       return () => {
-        setIsData(false)
+  
       }
-  }, [isData])
+  }, [])
   return (
     <div>
       <Nav/>
