@@ -6,6 +6,9 @@ function StorySection() {
   return (
     <div className="story-section">
       <h1> Hello {name} </h1>
+      <div class='text-story'>
+        
+      </div>
     </div>
   );
 }
