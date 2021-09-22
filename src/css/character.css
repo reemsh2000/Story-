@@ -47,7 +47,8 @@
   font-size: 18px;
 }
 .abilities:hover {
-  background-color:honeydew;
+  background-color:rgb(109, 158, 248);
+  color: #000;
 }
 .abilites-parent {
   position: relative;
