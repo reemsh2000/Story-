@@ -71,9 +71,19 @@ textarea {
   .story-container .story-cards {
     width: 95%;
   }
-  .left-section,.story-section{
+ 
+  .left-section{
     width:90%;
-    margin: 72px auto;
+    margin: 22px auto;
+    color:#3a4865;
+  }
+  .left-section h3{
+    margin: 5px;
+  }
+  .story-section{
+    margin: 100px auto;
+    width:90%;
+    color:#3a4865;
   }
 
 }
