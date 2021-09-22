@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 import '../css/nav.css';
 function Nav() {
   return (
-
       <div className='nav-conatiner'>
         <h2 className='title'> Story Maker </h2>
         <ul className='nav'>
