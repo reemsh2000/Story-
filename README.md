@@ -1,5 +1,5 @@
 # Story Maker :closed_book:
-## Live demo :tv:  [link](https://614b54b0c6d76c00074fb8be--xenodochial-kare-5101bc.netlify.app/ )
+## Live demo :tv:  [link](https://xenodochial-kare-5101bc.netlify.app/ )
 
 -------------------------
 ## Purpose: :bulb:
