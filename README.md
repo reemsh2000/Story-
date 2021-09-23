@@ -37,5 +37,5 @@ Make clean and minimalist website that help you to write simple story .
 
 
 ## Team Member :busts_in_silhouette:
-1- (Reem Shamya)[https://github.com/reemsh2000]
+1- [Reem Shamya](https://github.com/reemsh2000)
 
