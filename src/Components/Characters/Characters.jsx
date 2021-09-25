@@ -23,6 +23,7 @@ function reducer(state, action) {
 function Characters() {
   const [state, dispatch] = useReducer(reducer, initialState);
   useEffect(() => {
+    const abortController = new AbortController()
     dispatch({ type: "loading" });
     fetchData()
       .then((res) => {
@@ -31,7 +32,9 @@ function Characters() {
       .catch((error) => {
         dispatch({ type: "error", payload: error });
       });
-    return () => [];
+      return ()=> {
+        abortController.abort()
+      }
   }, []);
   return (
     <div>
